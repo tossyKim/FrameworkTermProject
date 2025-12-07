@@ -222,7 +222,10 @@
     <div class="main">
         <h2>이 곳은 메인 페이지입니다.</h2>
         <h1>Welcome!</h1>
-        <p class="string">로그인에 성공하셨습니다.<br>환영합니다!</p>
+        <p class="string">
+            <span th:text="${memberName}">사용자</span>님 로그인에 성공하셨습니다.<br>
+            환영합니다!
+        </p>
 
         <div class="card-section">
             <div class="card-item">
